@@ -7,3 +7,7 @@ Dynamic Programming
     - dynamic meaning to capture the time-varying aspect of the problems
     - both a mathematical optimization method and a computer programming method
     - can only use when there is an optimal substructure and overlapping subproblems
+        - ex. Fibonacci sequence
+
+Overlapping subproblems
+    - when a problem can be broken down into subproblems which are reused several times
