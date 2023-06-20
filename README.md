@@ -17,4 +17,5 @@ Overlapping subproblems
     - MergeSort is NOT an overlapping subproblem!
         - it is sorting different data each time, not referencing the same data over and over again as you are dividing it into smaller sections
         - however if the MergeSort is referencing the same numbers over and over again, then it is the edge case that is an overlapping subproblem 
+            - it has to be repetitive data that is evenly spaced
             - ex. mergeSort([10, 24, 10, 24])
