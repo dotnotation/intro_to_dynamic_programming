@@ -21,3 +21,10 @@ Overlapping subproblems
         - however if the MergeSort is referencing the same numbers over and over again, then it is the edge case that is an overlapping subproblem 
             - it has to be repetitive data that is evenly spaced
             - ex. mergeSort([10, 24, 10, 24])
+
+Optimal Substructure
+    - if an optimal solution can be constructed from optimal solutions of its subproblems
+    - think of the fibonacci sequence again
+	    - the optimal solution for 5 depends on the optimal solution of 4 and 3
+    - also applies to the shortest path between vertices on a graph 
+	    - you can find the shortest path by the subproblems of adding weights of the adjacent vertices and adding the smallest weights together to find the shortest path
