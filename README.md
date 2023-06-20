@@ -28,3 +28,4 @@ Optimal Substructure
 	    - the optimal solution for 5 depends on the optimal solution of 4 and 3
     - also applies to the shortest path between vertices on a graph 
 	    - you can find the shortest path by the subproblems of adding weights of the adjacent vertices and adding the smallest weights together to find the shortest path
+        - which also means that by finding the shortest path to the end will also find you the shortest path to all vertices along the way
